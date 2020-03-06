@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9fB2MDiZEeqByoNSOxLt0Q" name="DiagramasUML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_9fw2ADiZEeqByoNSOxLt0Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_pcSg4EkREeqH0fQP6I_wSw" name="Usuario Anonimo"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_sElY0EkREeqH0fQP6I_wSw" name="Usuario registrado"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jxnnoEkSEeqH0fQP6I_wSw" name="resgistrar Usuario"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_laUDwEkSEeqH0fQP6I_wSw" memberEnd="_laWgAEkSEeqH0fQP6I_wSw _laXHEEkSEeqH0fQP6I_wSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_laVR4EkSEeqH0fQP6I_wSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_laV48EkSEeqH0fQP6I_wSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_laWgAEkSEeqH0fQP6I_wSw" name="resgistrar usuario" type="_jxnnoEkSEeqH0fQP6I_wSw" association="_laUDwEkSEeqH0fQP6I_wSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_laXHEEkSEeqH0fQP6I_wSw" name="usuario anonimo" type="_pcSg4EkREeqH0fQP6I_wSw" association="_laUDwEkSEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mIweIEkSEeqH0fQP6I_wSw" name="Jugar Partida">
+    <extend xmi:type="uml:Extend" xmi:id="_tJSsMEkTEeqH0fQP6I_wSw" extendedCase="_sY_tIEkSEeqH0fQP6I_wSw" extensionLocation="_tJTTQEkTEeqH0fQP6I_wSw"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_y-NRIEkTEeqH0fQP6I_wSw" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n0pYMEkSEeqH0fQP6I_wSw" memberEnd="_n0rNYEkSEeqH0fQP6I_wSw _n0r0cEkSEeqH0fQP6I_wSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n0qmUEkSEeqH0fQP6I_wSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n0qmUUkSEeqH0fQP6I_wSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n0rNYEkSEeqH0fQP6I_wSw" name="jugar partida" type="_mIweIEkSEeqH0fQP6I_wSw" association="_n0pYMEkSEeqH0fQP6I_wSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n0r0cEkSEeqH0fQP6I_wSw" name="usuario registrado" type="_sElY0EkREeqH0fQP6I_wSw" association="_n0pYMEkSEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sY_tIEkSEeqH0fQP6I_wSw" name="Guardar Partia">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tJTTQEkTEeqH0fQP6I_wSw" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t_yEwEkSEeqH0fQP6I_wSw" memberEnd="_t_yr0kkSEeqH0fQP6I_wSw _t_zS4EkSEeqH0fQP6I_wSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t_yr0EkSEeqH0fQP6I_wSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t_yr0UkSEeqH0fQP6I_wSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t_yr0kkSEeqH0fQP6I_wSw" name="guardar partia" type="_sY_tIEkSEeqH0fQP6I_wSw" association="_t_yEwEkSEeqH0fQP6I_wSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t_zS4EkSEeqH0fQP6I_wSw" name="usuario registrado" type="_sElY0EkREeqH0fQP6I_wSw" association="_t_yEwEkSEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_uX8GEEkSEeqH0fQP6I_wSw" name="Consultar Ranking"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vcsHoEkSEeqH0fQP6I_wSw" memberEnd="_vctVwEkSEeqH0fQP6I_wSw _vctVwUkSEeqH0fQP6I_wSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vcsusEkSEeqH0fQP6I_wSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vcsusUkSEeqH0fQP6I_wSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vctVwEkSEeqH0fQP6I_wSw" name="consultar ranking" type="_uX8GEEkSEeqH0fQP6I_wSw" association="_vcsHoEkSEeqH0fQP6I_wSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vctVwUkSEeqH0fQP6I_wSw" name="usuario registrado" type="_sElY0EkREeqH0fQP6I_wSw" association="_vcsHoEkSEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SH7XoEkTEeqH0fQP6I_wSw" name="Cargar  Partida">
+    <include xmi:type="uml:Include" xmi:id="_trhPgEkTEeqH0fQP6I_wSw" addition="_mIweIEkSEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gsAsIEkTEeqH0fQP6I_wSw" name="Iniciar Partida nueva">
+    <include xmi:type="uml:Include" xmi:id="_dos2sEkUEeqH0fQP6I_wSw" addition="_mIweIEkSEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jpBP0EkTEeqH0fQP6I_wSw" memberEnd="_jpDFAEkTEeqH0fQP6I_wSw _jpDsEEkTEeqH0fQP6I_wSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jpCd8EkTEeqH0fQP6I_wSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jpCd8UkTEeqH0fQP6I_wSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jpDFAEkTEeqH0fQP6I_wSw" name="iniciar partida nueva" type="_gsAsIEkTEeqH0fQP6I_wSw" association="_jpBP0EkTEeqH0fQP6I_wSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jpDsEEkTEeqH0fQP6I_wSw" name="usuario registrado" type="_sElY0EkREeqH0fQP6I_wSw" association="_jpBP0EkTEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_439SwEkTEeqH0fQP6I_wSw" memberEnd="_43_H8UkTEeqH0fQP6I_wSw _43_vAEkTEeqH0fQP6I_wSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_43-g4EkTEeqH0fQP6I_wSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_43_H8EkTEeqH0fQP6I_wSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_43_H8UkTEeqH0fQP6I_wSw" name="iniciar partida nueva" type="_gsAsIEkTEeqH0fQP6I_wSw" association="_439SwEkTEeqH0fQP6I_wSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_43_vAEkTEeqH0fQP6I_wSw" name="usuario anonimo" type="_pcSg4EkREeqH0fQP6I_wSw" association="_439SwEkTEeqH0fQP6I_wSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qI7AkEkVEeqH0fQP6I_wSw" memberEnd="_qI8OsEkVEeqH0fQP6I_wSw _qI81wEkVEeqH0fQP6I_wSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qI7noEkVEeqH0fQP6I_wSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qI7noUkVEeqH0fQP6I_wSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qI8OsEkVEeqH0fQP6I_wSw" name="cargar  partida" type="_SH7XoEkTEeqH0fQP6I_wSw" association="_qI7AkEkVEeqH0fQP6I_wSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qI81wEkVEeqH0fQP6I_wSw" name="usuario registrado" type="_sElY0EkREeqH0fQP6I_wSw" association="_qI7AkEkVEeqH0fQP6I_wSw"/>
+  </packagedElement>
+</uml:Model>
